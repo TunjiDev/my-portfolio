@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255, 0.2);
+  height: 80px;
+}
+
+.footer h2 {
+  text-align: center;
+  color: white;
+}
+
+.footer__topArrowIcon {
+  background-color: #25632e;
+  opacity: 0.9;
+  color: white;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .footer h2 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,65 @@
+.resume h4,
+li,
+a {
+  color: white;
+}
+
+.resume h3 {
+  color: #25632e;
+}
+
+.resume__header,
+.resume__professionalSummary,
+.resume__education,
+.resume__technical__skills,
+.resume__experience,
+.resume__certifcations {
+  margin: 20px;
+  padding: 10px;
+}
+
+.resume__header h3,
+h4 {
+  text-align: center;
+}
+
+.resume__education div:last-child {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+
+.resume__education div:last-child p {
+  text-align: left;
+}
+
+.resume__experienceTop,
+.resume__experienceBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume__experience p {
+  text-align: left;
+}
+
+.resume__experience ul {
+  margin-bottom: 10px;
+  padding: 10px 0px;
+}
+
+@media (max-width: 400px) {
+  .resume__header,
+  .resume__professionalSummary,
+  .resume__education,
+  .resume__technical__skills,
+  .resume__experience,
+  .resume__certifcations {
+    margin: 20px 0px;
+    padding: 10px 5px;
+  }
+
+  .resume li {
+    margin-bottom: 10px;
+  }
+}

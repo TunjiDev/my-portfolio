@@ -1,0 +1,62 @@
+.heroimg {
+  height: 100%;
+  width: 100%;
+}
+
+.heroimg__mask {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.heroimg__mask::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.heromimg__introImg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.heroimg__content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.heroimg__content p {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.heroimg__content h1 {
+  font-size: 4rem;
+  padding: 0.6rem 0 1.5rem;
+}
+
+.heroimg p,
+h1 {
+  color: white;
+}
+
+.heroimg a {
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .heroimg__content h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,81 @@
+.navbar__header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 10;
+}
+
+.navbar__headerBg {
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 0.5s;
+}
+
+.navbar__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar__nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar__nav a:hover {
+  color: #25632e;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu li {
+  padding: 0 1rem;
+}
+
+.navbar__menu li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar__menu {
+  list-style-type: none;
+}
+
+.navbar__hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1040px) {
+  .navbar__menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: -3;
+    transition: 0.3s;
+  }
+
+  .navbar__menu.active {
+    left: 0;
+  }
+
+  .navbar__menu li {
+    padding: 1rem 0;
+  }
+
+  .navbar__menu li a {
+    font-size: 2rem;
+  }
+
+  .navbar__hamburger {
+    display: initial;
+  }
+}
