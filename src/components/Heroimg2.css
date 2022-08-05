@@ -42,7 +42,15 @@ p {
 }
 
 @media (max-width: 640px) {
+  .heroimg2__heading {
+    padding-top: 60px;
+  }
+
   .heroimg2__heading h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .heroimg2__heading p {
+    font-size: 1rem;
   }
 }

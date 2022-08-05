@@ -1,5 +1,5 @@
 .contacts {
-  height: 100vh;
+  height: 100%;
 }
 
 .contacts__modal {
@@ -57,10 +57,6 @@
 }
 
 @media (max-width: 400px) {
-  .contacts {
-    height: 80vh;
-  }
-
   .contacts__modal {
     width: 90%;
   }
