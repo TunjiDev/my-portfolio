@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Hosted Live on netlify:
+Hosted Live on netlify: https://tunji-portfolio.netlify.app/
 
 ## Available Scripts
 
