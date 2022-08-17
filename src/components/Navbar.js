@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
@@ -21,14 +21,24 @@ function Navbar() {
 
   return (
     <div
-      className={color ? "navbar__header navbar__headerBg" : "navbar__header"}
+      className={
+        color
+          ? `${styles.navbar__header} ${styles.navbar__headerBg}`
+          : `${styles.navbar__header}`
+      }
     >
-      <nav className="navbar__nav">
-        <Link to="/">
-          <h1>Portfolio</h1>
+      <nav className={styles.navbar__nav}>
+        <Link to="/" style={{ fontSize: "24px" }}>
+          Portfolio
         </Link>
 
-        <ul className={click ? "navbar__menu active" : "navbar__menu"}>
+        <ul
+          className={
+            click
+              ? `${styles.navbar__menu} ${styles.active}`
+              : `${styles.navbar__menu}`
+          }
+        >
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -43,7 +53,7 @@ function Navbar() {
           </li>
         </ul>
 
-        <div className="navbar__hamburger" onClick={handleClick}>
+        <div className={styles.navbar__hamburger} onClick={handleClick}>
           {click ? (
             <FaTimes size={20} style={{ color: "#fff" }} />
           ) : (

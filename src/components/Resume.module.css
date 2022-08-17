@@ -4,6 +4,10 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #25632e;
+}
+
 .resume h3 {
   color: #25632e;
 }
@@ -48,13 +52,17 @@ h4 {
   padding: 10px 0px;
 }
 
+.resume__certifications {
+  padding-bottom: 15px;
+}
+
 @media (max-width: 400px) {
   .resume__header,
   .resume__professionalSummary,
   .resume__education,
   .resume__technical__skills,
   .resume__experience,
-  .resume__certifcations {
+  .resume__certifications {
     margin: 20px 0px;
     padding: 10px 5px;
   }

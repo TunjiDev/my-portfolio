@@ -5,11 +5,11 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div>
+    <>
       <Navbar />
       <Heroimg />
       <Footer />
-    </div>
+    </>
   );
 }
 

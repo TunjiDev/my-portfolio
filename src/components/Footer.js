@@ -1,4 +1,4 @@
-import "./Footer.css";
+import styles from "./Footer.module.css";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import React, { useState } from "react";
 
@@ -20,8 +20,8 @@ function Footer() {
   window.addEventListener("scroll", toTop);
 
   return (
-    <div className="footer">
-      <div className="footer__container">
+    <div className={styles.footer}>
+      <div className={styles.footer__container}>
         <h2>Created by @TunjiDev. ALL RIGHTS RESERVED.</h2>
       </div>
 
@@ -30,7 +30,9 @@ function Footer() {
           size={40}
           onClick={scrollToTop}
           className={
-            bottom ? "footer__topArrowIcon" : "hidden footer__topArrowIcon"
+            bottom
+              ? `${styles.footer__topArrowIcon}`
+              : `${styles.hidden} ${styles.footer__topArrowIcon}`
           }
         />
       </div>

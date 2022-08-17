@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Works.css";
+import styles from "./Works.module.css";
 import Workcard from "../components/Workcard";
 import WorkcardFrontendData from "../components/WorkcardFrontendData";
 import WorkcardBackendData from "../components/WorkcardBackendData";
@@ -18,8 +18,8 @@ function Works() {
   };
 
   return (
-    <div className="works__container">
-      <div className="works__containerBtnDiv">
+    <div className={styles.works__container}>
+      <div className={styles.works__containerBtnDiv}>
         <div
           className={clickFrontend ? "btn" : "btn btn__light"}
           onClick={handleClickFrontend}
@@ -34,7 +34,7 @@ function Works() {
         </div>
       </div>
 
-      <div className="works__workcardContainer">
+      <div className={styles.works__workcardContainer}>
         {clickFrontend
           ? WorkcardFrontendData.map((data, i) => {
               return (

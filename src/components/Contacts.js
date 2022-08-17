@@ -1,4 +1,5 @@
-import "./Contacts.css";
+import styles from "./Contacts.module.css";
+import ContactsModal from "./ContactsModal";
 
 import React, { useState } from "react";
 import {
@@ -31,15 +32,25 @@ function Home() {
     }, 3000);
   };
 
-  // console.log(click);
-
   return (
-    <div className="contacts">
-      <div className={click ? "contacts__modal" : "contacts__modal hidden"}>
+    <div className={styles.contacts}>
+      {click && (
+        <ContactsModal
+          title={`Thanks for for filling the form, ${name}`}
+          message="I'll contact you shortly"
+        />
+      )}
+      {/* <div
+        className={
+          click
+            ? `${styles.contacts__modal}`
+            : `${styles.contacts__modal} ${styles.hidden}`
+        }
+      >
         <p>Thank you {name}, Message received! </p>
-      </div>
+      </div> */}
 
-      <div className="contacts__container">
+      <div className={styles.contacts__container}>
         <a
           href="https://github.com/TunjiDev"
           id="profile-link"
@@ -87,7 +98,7 @@ function Home() {
         </a>
       </div>
 
-      <form className="contacts__form" onSubmit={submitHandler}>
+      <form className={styles.contacts__form} onSubmit={submitHandler}>
         <label>Your Name</label>
         <input
           type="text"

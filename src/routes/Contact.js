@@ -6,7 +6,7 @@ import Contacts from "../components/Contacts";
 
 function Contact() {
   return (
-    <div>
+    <>
       <Navbar />
       <Heroimg2
         heading="CONTACT."
@@ -14,7 +14,7 @@ function Contact() {
       />
       <Contacts />
       <Footer />
-    </div>
+    </>
   );
 }
 

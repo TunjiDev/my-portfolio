@@ -6,7 +6,7 @@ import Resume from "../components/Resume";
 
 function About() {
   return (
-    <div>
+    <>
       <Navbar />
       <Heroimg2
         heading="ABOUT."
@@ -14,7 +14,7 @@ function About() {
       />
       <Resume />
       <Footer />
-    </div>
+    </>
   );
 }
 

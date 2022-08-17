@@ -1,11 +1,11 @@
-import "./Resume.css";
+import styles from "./Resume.module.css";
 
 import React from "react";
 
 function Resume() {
   return (
-    <div className="resume">
-      <div className="resume__header">
+    <div className={styles.resume}>
+      <div className={styles.resume__header}>
         <h3>ADETUNJI IGBATAYO</h3>
         <h4>adetunjiigbatayo@gmail.com | +23409053572653</h4>
         <h4>
@@ -27,7 +27,7 @@ function Resume() {
         </h4>
       </div>
 
-      <div className="resume__professionalSummary">
+      <div className={styles.resume__professionalSummary}>
         <h3>PROFESSIONAL SUMMARY</h3>
         <p>
           <i>
@@ -39,7 +39,7 @@ function Resume() {
         </p>
       </div>
 
-      <div className="resume__education">
+      <div className={styles.resume__education}>
         <h3>EDUCATION</h3>
         <div>
           <div>
@@ -52,7 +52,7 @@ function Resume() {
         </div>
       </div>
 
-      <div className="resume__technical__skills">
+      <div className={styles.resume__technical__skills}>
         <h3>TECHNICAL SKILLS</h3>
         <ul>
           <li>
@@ -68,9 +68,9 @@ function Resume() {
         </ul>
       </div>
 
-      <div className="resume__experience">
+      <div className={styles.resume__experience}>
         <h3>EXPERIENCE</h3>
-        <div className="resume__experienceTop">
+        <div className={styles.resume__experienceTop}>
           <div>
             <h4>Microsoft Azure Database Administrator Intern</h4>
             <p>Stanbic IBTC Digital Skill Empowerment Program </p>
@@ -99,7 +99,7 @@ function Resume() {
           </li>
         </ul>
 
-        <div className="resume__experienceBottom">
+        <div className={styles.resume__experienceBottom}>
           <div>
             <h4>Backend Software Developer, Nodejs</h4>
             <p>Anter Technologies</p>
@@ -130,7 +130,7 @@ function Resume() {
         </ul>
       </div>
 
-      <div className="resume__certifcations">
+      <div className={styles.resume__certifications}>
         <h3>PROFESSIONAL CERTIFICATIONS</h3>
 
         <ul>

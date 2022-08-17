@@ -21,12 +21,12 @@
   color: #25632e;
 }
 
-.wordcard__siteLink {
+.workcard__siteLink {
   background-color: rgb(255, 255, 255, 0.2);
   height: 80%;
 }
 
-.wordcard__repoLink {
+.workcard__repoLink {
   background-color: white;
   height: 20%;
   text-align: center;
@@ -37,7 +37,7 @@
     margin-bottom: 15px;
   }
 
-  .wordcard__repoLink {
+  .workcard__repoLink {
     font-size: 12px;
   }
 }

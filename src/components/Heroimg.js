@@ -1,16 +1,20 @@
-import "./Heroimg.css";
+import styles from "./Heroimg.module.css";
 import React from "react";
 import IntroImg from "../assets/images/photo-home.avif";
 import { Link } from "react-router-dom";
 
 function Heroimg() {
   return (
-    <div className="heroimg">
-      <div className="heroimg__mask">
-        <img className="heromimg__introImg" src={IntroImg} alt="IntroImg" />
+    <div className={styles.heroimg}>
+      <div className={styles.heroimg__mask}>
+        <img
+          className={styles.heromimg__introImg}
+          src={IntroImg}
+          alt="IntroImg"
+        />
       </div>
 
-      <div className="heroimg__content">
+      <div className={styles.heroimg__content}>
         <p>Hey there, I am Tunji</p>
         <h1>A software developer</h1>
         <div>

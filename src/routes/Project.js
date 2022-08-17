@@ -6,12 +6,12 @@ import Works from "../components/Works";
 
 function Project() {
   return (
-    <div>
+    <>
       <Navbar />
       <Heroimg2 heading="PROJECTS." text="Here are some of my works" />
       <Works />
       <Footer />
-    </div>
+    </>
   );
 }
 
