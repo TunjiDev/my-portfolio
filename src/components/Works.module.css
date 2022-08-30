@@ -23,6 +23,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 500px) {
+  .works__containerBtnDiv {
+    flex-direction: column;
+  }
+
+  .works__containerBtnDiv button {
+    margin: 5px;
+    width: 90%;
+  }
+}
+
 @media (max-width: 400px) {
   .works__workcardContainer {
     grid-template-columns: 1fr;

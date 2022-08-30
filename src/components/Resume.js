@@ -31,10 +31,11 @@ function Resume() {
         <h3>PROFESSIONAL SUMMARY</h3>
         <p>
           <i>
-            Software developer dedicated to helping clients accomplish technical
-            goals by developing user friendly and forward-thinking apps.
-            Aspiring full stack developer with skills in ReactJs and NodeJs.
-            Cloud practitioner with skills in Aws and Microsoft Azure.
+            Software and Wordpress developer dedicated to helping clients
+            accomplish technical goals by developing user friendly and
+            forward-thinking apps. Aspiring full stack developer with skills in
+            ReactJs and NodeJs. Cloud practitioner with skills in Aws and
+            Microsoft Azure.
           </i>
         </p>
       </div>
@@ -57,7 +58,8 @@ function Resume() {
         <ul>
           <li>
             <strong>Computing:</strong> Html, Css, JavaScript, ReactJs,
-            Bootstrap, NodeJs, SQL, NoSQL, Cloud computing, Software Testing
+            Bootstrap, Wordpress, NodeJs, SQL, NoSQL, Cloud computing, Software
+            Testing
           </li>
           <li>
             <strong>Professional:</strong> Problem Solving, Critical Thinking.

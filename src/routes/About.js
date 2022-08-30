@@ -10,7 +10,7 @@ function About() {
       <Navbar />
       <Heroimg2
         heading="ABOUT."
-        text="I am a friendly Software Engineer with skills in Front-End engineering(ReactJs), Back-End engineering(NodeJs), Cloud Engineering(AWS and Microsoft Azure) as well as Software Quality Assurance Engineering. Please check out my resume below."
+        text="I am a friendly Software Engineer with skills in Front-End engineering(ReactJs), Back-End engineering(NodeJs), Wordpress Development, Cloud Engineering(AWS and Microsoft Azure) as well as Software Quality Assurance Engineering. Please check out my resume below."
       />
       <Resume />
       <Footer />

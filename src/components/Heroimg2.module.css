@@ -25,6 +25,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .heroimg2__heading h1,
@@ -39,6 +40,7 @@ p {
 
 .heroimg2__heading p {
   font-size: 1.4rem;
+  text-align: justify;
 }
 
 @media (max-width: 640px) {

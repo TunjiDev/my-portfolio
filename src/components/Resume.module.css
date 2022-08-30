@@ -22,6 +22,10 @@ a:hover {
   padding: 10px;
 }
 
+.resume__professionalSummary p {
+  text-align: justify;
+}
+
 .resume__header h3,
 h4 {
   text-align: center;
@@ -67,6 +71,14 @@ h4 {
     padding: 10px 5px;
   }
 
+  .resume__experienceTop,
+  .resume__experienceBottom {
+    margin-bottom: 10px;
+  }
+
+  .resume__experience p {
+    margin-top: 10px;
+  }
   .resume li {
     margin-bottom: 10px;
   }
