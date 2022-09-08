@@ -35,7 +35,7 @@ function Resume() {
             accomplish technical goals by developing user friendly and
             forward-thinking apps. Aspiring full stack developer with skills in
             ReactJs and NodeJs. Cloud practitioner with skills in Aws and
-            Microsoft Azure.
+            Microsoft Azure. Software tester.
           </i>
         </p>
       </div>
