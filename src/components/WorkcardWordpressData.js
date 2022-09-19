@@ -2,6 +2,7 @@ import entertainmentblog from "../assets/images/entertainment-blog.png";
 import fashionblog from "../assets/images/fashion-blog.png";
 import techblog from "../assets/images/tech-blog.png";
 import comingSoon from "../assets/images/coming-soon.png";
+import tunjiFashionEcommerce from "../assets/images/tunji-fashion-ecommerce-store.png";
 
 const ProjectCardData = [
   {
@@ -23,6 +24,11 @@ const ProjectCardData = [
     imgsrc: comingSoon,
     title: "A Coming Soon Page for clients",
     siteUrl: "https://tunjiigbatayo.com/coming-soon/",
+  },
+  {
+    imgsrc: tunjiFashionEcommerce,
+    title: "A Fashion Design Ecommerce store",
+    siteUrl: "http://tunji.unaux.com/ecommerce/",
   },
 ];
 
