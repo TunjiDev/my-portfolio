@@ -3,6 +3,7 @@ import fashionblog from "../assets/images/fashion-blog.png";
 import techblog from "../assets/images/tech-blog.png";
 import comingSoon from "../assets/images/coming-soon.png";
 import tunjiFashionEcommerce from "../assets/images/tunji-fashion-ecommerce-store.png";
+import wordpressPortfolio from "../assets/images/wordpress-portfolio.png";
 
 const ProjectCardData = [
   {
@@ -29,6 +30,11 @@ const ProjectCardData = [
     imgsrc: tunjiFashionEcommerce,
     title: "A Fashion Design Ecommerce store",
     siteUrl: "http://tunji.unaux.com/ecommerce/",
+  },
+  {
+    imgsrc: wordpressPortfolio,
+    title: "My WordPress portfolio website",
+    siteUrl: "http://www.tunji.unaux.com/portfolio/",
   },
 ];
 
