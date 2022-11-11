@@ -9,37 +9,37 @@ import animeWebsite from "../assets/images/anime-website.png";
 const ProjectCardData = [
 	{
 		imgsrc: entertainmentblog,
-		title: "An Entertainment Blog",
+		title: "Entertainment Blog",
 		siteUrl: "http://tunji.liveblog365.com/",
 	},
 	{
 		imgsrc: fashionblog,
-		title: "A Fashion Blog",
+		title: "Fashion Blog",
 		siteUrl: "http://tunji.liveblog365.com/fashion-blog/",
 	},
 	{
 		imgsrc: techblog,
-		title: "A Basic Tech Blog",
-		siteUrl: "http://tunji.liveblog365.com/tech-blog/",
+		title: "Tech Blog",
+		siteUrl: "http://www.mastateqtraining.ezyro.com/tech-blog/",
 	},
 	{
 		imgsrc: comingSoon,
-		title: "A Coming Soon Page for clients",
+		title: "Coming Soon Page for clients",
 		siteUrl: "https://tunjiigbatayo.com/coming-soon/",
 	},
 	{
 		imgsrc: tunjiFashionEcommerce,
-		title: "A Fashion Design Ecommerce store",
+		title: "Fashion Design Ecommerce store",
 		siteUrl: "http://tunji.unaux.com/ecommerce/",
 	},
 	{
 		imgsrc: wordpressPortfolio,
-		title: "My WordPress portfolio website",
+		title: "My Portfolio website",
 		siteUrl: "http://www.tunji.unaux.com/portfolio/",
 	},
 	{
 		imgsrc: animeWebsite,
-		title: "My WordPress Anime website",
+		title: "Anime website",
 		siteUrl: "https://www.tunji.com.ng/",
 	},
 ];
