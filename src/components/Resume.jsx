@@ -57,12 +57,12 @@ function Resume() {
         <h3>TECHNICAL SKILLS</h3>
         <ul>
           <li>
-            <strong>Computing:</strong> Html, Css, JavaScript, ReactJs,
+            <strong>Computing:</strong> Html, Css, JavaScript, ReactJs, NextJs,
             Bootstrap, Wordpress, NodeJs, SQL, NoSQL, Cloud computing, Software
             Testing
           </li>
           <li>
-            <strong>Professional:</strong> Problem Solving, Critical Thinking.
+            <strong>Professional:</strong> Problem Solving, Critical Thinking, Team Work.
           </li>
           <li>
             <strong>Languages:</strong> English (fluent)
