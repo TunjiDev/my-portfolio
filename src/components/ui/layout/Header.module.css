@@ -1,0 +1,11 @@
+.img {
+  animation: animate 2s infinite ease alternate;
+  border-radius: 50%;
+  position: absolute;
+}
+
+@keyframes animate {
+  100% {
+    transform: translateY(-40px);
+  }
+}
