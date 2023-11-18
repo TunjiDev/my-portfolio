@@ -1,5 +1,5 @@
 import React from "react";
-import "./Cube.css";
+import "./cube.css";
 
 const Cube = () => {
   return (
