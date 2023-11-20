@@ -20,7 +20,7 @@ function Backend() {
     <>
       <motion.div
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr gap-4 m-auto"
-        initial={{ x: 1000 }}
+        initial={{ x: -1000 }}
         animate={{ x: 0 }}
         transition={{ duration: 1.0, ease: "easeInOut" }}
       >
