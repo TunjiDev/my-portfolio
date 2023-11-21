@@ -33,7 +33,15 @@ function Frontend() {
           return (
             <Card key={i} onClick={() => setProject(data)}>
               <CardHeader>
-                <Image src={data.imgSrc} alt={data.title} width={0} height={0} sizes="100vw" className={"cardimage"} />
+                <Image
+                  src={data.imgSrc}
+                  alt={data.title}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className={"cardimage"}
+                  loading="lazy"
+                />
               </CardHeader>
               <CardContent>
                 <p className="text-center">{data.title}</p>
@@ -52,6 +60,7 @@ function Frontend() {
               width={0}
               height={0}
               sizes="100vw"
+              loading="lazy"
               className={"cardimage"}
             />
           </div>

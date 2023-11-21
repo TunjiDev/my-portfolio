@@ -1,8 +1,8 @@
 import * as React from "react";
 const SVGComponent = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={24}
-    height={24}
+    width={40}
+    height={40}
     fill={props.color || "#fff"}
     viewBox="0 0 512 512"
     data-name="Layer 1"

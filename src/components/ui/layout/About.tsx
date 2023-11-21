@@ -13,7 +13,7 @@ const About = forwardRef<HTMLDivElement, Props>((props, ref) => {
       <div>
         <h1 className="text-center text-2xl sm:text-5xl font-bold mb-8">About.</h1>
 
-        <div className="flex flex-col md:flex-row md:justify-between justify-center items-center">
+        <div className="flex flex-col md:flex-row md:justify-between justify-center items-center mb-10">
           <motion.div
             className="w-1/4"
             initial={{ x: -1000 }}

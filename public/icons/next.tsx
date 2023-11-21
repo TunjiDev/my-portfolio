@@ -1,8 +1,9 @@
 import * as React from "react";
 const SVGComponent = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={24}
-    height={24}
+    width={props.width || 24}
+    height={props.height || 24}
+    cursor={"pointer"}
     viewBox="0 -101.5 512 512"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid"
