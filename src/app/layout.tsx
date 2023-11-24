@@ -18,6 +18,9 @@ export const metadata: Metadata = {
       "en-US": "/en-US",
     },
   },
+  verification: {
+    google: "GCGu-av4XGpTHCyaWAvceX1qkzK2ofjrp68_lfR0FXs",
+  },
   twitter: {
     card: "summary_large_image",
     title: "Tunji's Portfolio",
