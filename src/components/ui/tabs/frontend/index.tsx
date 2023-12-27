@@ -149,6 +149,13 @@ function Frontend() {
                         <Image src="/images/supabase.png" alt={"supabase logo"} width={24} height={24} sizes="100vw" />
                       </div>
                     );
+
+                  case "Shadcn UI":
+                    return (
+                      <div key={i} className="cursor-pointer" title="Shadcn UI">
+                        <Image src="/images/shadcn.png" alt={"shadcn ui logo"} width={24} height={24} sizes="100vw" />
+                      </div>
+                    );
                   default:
                     return null;
                 }

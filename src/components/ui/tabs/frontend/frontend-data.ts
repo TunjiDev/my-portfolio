@@ -10,6 +10,16 @@ export interface DataType {
 
 const FrontendData: DataType[] = [
   {
+    imgSrc: "/images/suprise-santa-dashboard.png",
+    title: "Suprise Santa - An Admin Dashboard Web App",
+    siteUrl: "https://secret-santa-supreme.vercel.app",
+    githubUrl: "https://github.com/Surprise-Santa/surprrise-santa-fe",
+    description:
+      "Contributed to the development of Surprise Santa. Surprise santa(more commonly known as secret santa) is a Christmas tradition; It involves a group of people exchanging gifts with each other, but not knowing who is giving them a gift. This is done by randomly assigning each person in the group another person to give a gift to. This is done anonymously, so the person receiving the gift doesn't know who it is from. This is why it is called Surprise Santa.",
+    technologies: ["JavaScript", "ReactJs", "NextJs", "TypeScript", "Shadcn UI", "React Hook Form"],
+    shortTitle: "Suprise Santa",
+  },
+  {
     imgSrc: "/images/rees.dcca4347f0a73dece195.png",
     title: "REES - A Real Estate Management Web App",
     siteUrl: "https://rees.vercel.app/",
