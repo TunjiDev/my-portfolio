@@ -12,7 +12,7 @@ const FrontendData: DataType[] = [
   {
     imgSrc: "/images/suprise-santa-dashboard.png",
     title: "Suprise Santa - An Admin Dashboard Web App",
-    siteUrl: "https://secret-santa-supreme.vercel.app",
+    siteUrl: "http://surprisesanta.org",
     githubUrl: "https://github.com/Surprise-Santa/surprrise-santa-fe",
     description:
       "Contributed to the development of Surprise Santa. Surprise santa(more commonly known as secret santa) is a Christmas tradition; It involves a group of people exchanging gifts with each other, but not knowing who is giving them a gift. This is done by randomly assigning each person in the group another person to give a gift to. This is done anonymously, so the person receiving the gift doesn't know who it is from. This is why it is called Surprise Santa.",
