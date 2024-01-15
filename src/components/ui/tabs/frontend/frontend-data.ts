@@ -30,6 +30,16 @@ const FrontendData: DataType[] = [
     shortTitle: "REES",
   },
   {
+    imgSrc: "/images/movie-app.png",
+    title: "Movie App - A Movie Search Web App",
+    siteUrl: "https://tj-movie-search.netlify.app/",
+    githubUrl: "https://github.com/TunjiDev/movie-search-app",
+    description:
+      "Welcome to the Movie Search App, a web application built with React, Chakra UI, and powered by The Movie Database (TMDb) API. This app allows users to discover and search for their favorite movies, explore trending shows, and watch trailers.",
+    technologies: ["JavaScript", "ReactJs", "Chakra UI", "TypeScript"],
+    shortTitle: "Movie App",
+  },
+  {
     imgSrc: "/images/scissor.de9129952cb3c32f8b85.png",
     title: "Scissor - A URL-Shortener Web App",
     siteUrl: "https://scissor-cut.vercel.app/",
