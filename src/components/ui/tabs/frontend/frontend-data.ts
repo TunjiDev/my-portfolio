@@ -10,6 +10,15 @@ export interface DataType {
 
 const FrontendData: DataType[] = [
   {
+    imgSrc: "/images/lopeer.png",
+    title: "Lopeer - A Fintech Neobanking Web App",
+    siteUrl: "https://lopeer.onrender.com",
+    description:
+      "Lopeer is a next-generation Neobank that seamlessly combines the power of cryptocurrency and traditional finance to offer a complete suite of financial tools. With Lopeer, you can easily send and receive money globally, pay your bills with ease, save, swap crypto, and use virtual cards for online purchases.",
+    technologies: ["JavaScript", "ReactJs", "TypeScript", "Ant Design"],
+    shortTitle: "Lopeer",
+  },
+  {
     imgSrc: "/images/suprise-santa-dashboard.png",
     title: "Suprise Santa - An Admin Dashboard Web App",
     siteUrl: "https://surprisesanta.org",

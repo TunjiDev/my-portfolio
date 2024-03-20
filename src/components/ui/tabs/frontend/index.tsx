@@ -7,15 +7,15 @@ import { motion } from "framer-motion";
 
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import Popup from "../../popup";
-import ChakraIcon from "../../../../../public/icons/chakra";
-import JsIcon from "../../../../../public/icons/javascript";
-import ReactIcon from "../../../../../public/icons/react";
-import NextIcon from "../../../../../public/icons/next";
-import TypeScriptIcon from "../../../../../public/icons/typescript";
-import MuiIcon from "../../../../../public/icons/mui";
-import ReactRouterIcon from "../../../../../public/icons/react-router";
-import FirebaseIcon from "../../../../../public/icons/firebase";
-import ReduxIcon from "../../../../../public/icons/redux";
+import ChakraIcon from "@/icons/chakra";
+import JsIcon from "@/icons/javascript";
+import ReactIcon from "@/icons/react";
+import NextIcon from "@/icons/next";
+import TypeScriptIcon from "@/icons/typescript";
+import MuiIcon from "@/icons/mui";
+import ReactRouterIcon from "@/icons/react-router";
+import FirebaseIcon from "@/icons/firebase";
+import ReduxIcon from "@/icons/redux";
 import FrontendData, { DataType } from "./frontend-data";
 
 function Frontend() {
@@ -156,6 +156,20 @@ function Frontend() {
                         <Image src="/images/shadcn.png" alt={"shadcn ui logo"} width={24} height={24} sizes="100vw" />
                       </div>
                     );
+
+                  case "Ant Design":
+                    return (
+                      <div key={i} className="cursor-pointer" title="Ant Design">
+                        <Image
+                          src="/images/ant-design-icon.png"
+                          alt={"ant design logo"}
+                          width={24}
+                          height={24}
+                          sizes="100vw"
+                        />
+                      </div>
+                    );
+
                   default:
                     return null;
                 }
@@ -166,11 +180,13 @@ function Frontend() {
           <div className="flex">
             <span className="text-[#25632e]">Live: </span>
             <div className="flex justify-evenly items-center ml-4 text-sm sm:text-base">
-              <div className="mr-4">
-                <Link href={project?.githubUrl as string} target="_blank" rel="noopener noreferrer">
-                  See Repository
-                </Link>
-              </div>
+              {project.githubUrl ? (
+                <div className="mr-4">
+                  <Link href={project?.githubUrl as string} target="_blank" rel="noopener noreferrer">
+                    See Repository
+                  </Link>
+                </div>
+              ) : null}
 
               <div>
                 <Link href={project?.siteUrl} target="_blank" rel="noopener noreferrer">

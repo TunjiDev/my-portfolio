@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import Popup from "../../popup";
 import { DataType } from "../frontend/frontend-data";
-import NodeIcon from "../../../../../public/icons/node";
-import MongoDbIcon from "../../../../../public/icons/mongodb";
-import JsIcon from "../../../../../public/icons/javascript";
+import NodeIcon from "@/icons/node";
+import MongoDbIcon from "@/icons/mongodb";
+import JsIcon from "@/icons/javascript";
 import BackendData from "./backend-data";
 
 function Backend() {
